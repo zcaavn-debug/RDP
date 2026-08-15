@@ -22,8 +22,8 @@ jobs:
 
       - name: Create RDP User with Secure Password
         run: |
-          $username = "YamzzOfficial"
-          $password = "YamzzOffical@123"
+          $username = "KHOAMODS"
+          $password = "Hagdt@12"
           
           $securePass = ConvertTo-SecureString $password -AsPlainText -Force
           New-LocalUser -Name $username -Password $securePass -AccountNeverExpires
@@ -76,8 +76,8 @@ jobs:
         run: |
           Write-Host "`n=== RDP ACCESS ==="
           Write-Host "Address: $env:TAILSCALE_IP"
-          Write-Host "Username: YamzzOfficial"
-          Write-Host "Password: YamzzOffical@123"
+          Write-Host "Username: KHOAMODS"
+          Write-Host "Password: Hagdt@12"
           Write-Host "==================`n"
           
           while ($true) {
