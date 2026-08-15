@@ -8,7 +8,8 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - name: Test
+      - name: Test Windows
         run: |
-          Write-Host "Windows runner started"
-          Start-Sleep -Seconds 30
+          Write-Host "Windows Runner Started"
+          systeminfo
+          Start-Sleep -Seconds 60
